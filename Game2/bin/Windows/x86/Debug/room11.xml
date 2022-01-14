@@ -1,0 +1,110 @@
+<XnaContent>
+<!--  contain enemy Dragon, WallMaster, Flame and Trap, item Compass, Fairy and Heart, 3 doors at designed position -->
+<Asset Type="MyDataTypes.LevelObjectData[]">
+  <!--  room  -->
+  <Item>
+    <ObjectType>Room</ObjectType>
+    <ObjectName>RoomNum</ObjectName>
+    <num>11</num>
+    <num>11</num>
+  </Item>
+  <Item>
+    <ObjectType>Room</ObjectType>
+    <ObjectName>Room</ObjectName>
+    <width>13</width>
+    <height>19</height>
+  </Item>
+  <Item>
+    <ObjectType>Room</ObjectType>
+    <ObjectName>Down</ObjectName>
+    <DownRoom>9</DownRoom>
+    <DownRoom>9</DownRoom>
+  </Item>
+  <Item>
+    <ObjectType>Room</ObjectType>
+    <ObjectName>Left</ObjectName>
+    <LeftRoom>17</LeftRoom>
+    <LeftRoom>17</LeftRoom>
+  </Item>
+  <Item>
+    <ObjectType>Room</ObjectType>
+    <ObjectName>Right</ObjectName>
+    <RightRoom>7</RightRoom>
+    <RightRoom>7</RightRoom>
+  </Item>
+  <!--  room  -->
+  <!--  enemy  -->
+
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Flame</ObjectName>
+    <posX>37</posX>
+    <posY>27</posY>
+  </Item>
+
+
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Flame</ObjectName>
+    <posX>63</posX>
+    <posY>27</posY>
+  </Item>
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Flame</ObjectName>
+    <posX>37</posX>
+    <posY>73</posY>
+  </Item>
+
+
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Flame</ObjectName>
+    <posX>63</posX>
+    <posY>73</posY>
+  </Item>
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>GreenDragon</ObjectName>
+    <posX>56</posX>
+    <posY>45</posY>
+  </Item>
+  <!--  enemy  -->
+  <!--  item  -->
+  <Item>
+    <ObjectType>Item</ObjectType>
+    <ObjectName>BlueCandle</ObjectName>
+    <posX>72</posX>
+    <posY>63</posY>
+  </Item>
+
+  <!--  item  -->
+  <!--  Door  -->
+  <Item>
+    <ObjectType>Door</ObjectType>
+    <ObjectName>Down</ObjectName>
+    <posX>47</posX>
+    <posY>82</posY>
+  </Item>
+  <Item>
+    <ObjectType>Door</ObjectType>
+    <ObjectName>Left</ObjectName>
+    <posX>13</posX>
+    <posY>46</posY>
+  </Item>
+  <Item>
+    <ObjectType>Door</ObjectType>
+    <ObjectName>Right</ObjectName>
+    <posX>88</posX>
+    <posY>46</posY>
+  </Item>
+  <!--  Door  -->
+
+  <Item>
+    <ObjectType>Wall</ObjectType>
+    <ObjectName>Right</ObjectName>
+    <posX>87</posX>
+    <posY>30</posY>
+  </Item>
+</Asset>
+</XnaContent>

@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.9.8\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props" Condition="Exists('..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.9.8\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props')" />
+  <Import Project="..\packages\Microsoft.NetFramework.Analyzers.2.9.8\build\Microsoft.NetFramework.Analyzers.props" Condition="Exists('..\packages\Microsoft.NetFramework.Analyzers.2.9.8\build\Microsoft.NetFramework.Analyzers.props')" />
+  <Import Project="..\packages\Microsoft.NetCore.Analyzers.2.9.8\build\Microsoft.NetCore.Analyzers.props" Condition="Exists('..\packages\Microsoft.NetCore.Analyzers.2.9.8\build\Microsoft.NetCore.Analyzers.props')" />
+  <Import Project="..\packages\Microsoft.CodeQuality.Analyzers.2.9.8\build\Microsoft.CodeQuality.Analyzers.props" Condition="Exists('..\packages\Microsoft.CodeQuality.Analyzers.2.9.8\build\Microsoft.CodeQuality.Analyzers.props')" />
+  <Import Project="..\packages\Microsoft.CodeAnalysis.VersionCheckAnalyzer.2.9.8\build\Microsoft.CodeAnalysis.VersionCheckAnalyzer.props" Condition="Exists('..\packages\Microsoft.CodeAnalysis.VersionCheckAnalyzer.2.9.8\build\Microsoft.CodeAnalysis.VersionCheckAnalyzer.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5FE3BA18-FE92-4C8D-AF35-3B569DAE9310}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Game2</RootNamespace>
+    <AssemblyName>Game2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Game1.cs" />
+    <Compile Include="GameState\IGameState.cs" />
+    <Compile Include="GameState\InventoryScreen.cs" />
+    <Compile Include="GameState\LoseState.cs" />
+    <Compile Include="GameState\PauseState.cs" />
+    <Compile Include="GameState\PlayState.cs" />
+    <Compile Include="GameState\StartState.cs" />
+    <Compile Include="GameState\WinState.cs" />
+    <Compile Include="Generator\LetterGenerator.cs" />
+    <Compile Include="ICollisionDetector\EnemyCollisionDetection.cs" />
+    <Compile Include="ICollisionDetector\ICollisionDetection.cs" />
+    <Compile Include="ICollisionDetector\LinkCollisionDetection.cs" />
+    <Compile Include="ICollisionHandler\EnemyCollisonHandler.cs" />
+    <Compile Include="ICollisionHandler\LinkCollisonHandler.cs" />
+    <Compile Include="ICommand\AttackCommand.cs" />
+    <Compile Include="ICommand\ChangeToDownCommand.cs" />
+    <Compile Include="ICommand\ChangeToLeftCommand.cs" />
+    <Compile Include="ICommand\ChangeToRightCommand .cs" />
+    <Compile Include="ICommand\ChangeToStandCommand.cs" />
+    <Compile Include="ICommand\ChangeToUpCommand.cs" />
+    <Compile Include="ICommand\ChangeToWalkCommand.cs" />
+    <Compile Include="ICommand\DownLineCommand.cs" />
+    <Compile Include="ICommand\Gear2.cs" />
+    <Compile Include="ICommand\Gear1.cs" />
+    <Compile Include="ICommand\GetDemagedCommand.cs" />
+    <Compile Include="ICommand\ICommand.cs" />
+    <Compile Include="ICommand\NextItemCommand.cs" />
+    <Compile Include="ICommand\PreviousItemCommand.cs" />
+    <Compile Include="ICommand\QuitCommand.cs" />
+    <Compile Include="ICommand\SelectInListCommand.cs" />
+    <Compile Include="ICommand\SwitchToInventoryCommand.cs" />
+    <Compile Include="ICommand\SwitchToWinCommand.cs" />
+    <Compile Include="ICommand\SwitchToLoseCommand.cs" />
+    <Compile Include="ICommand\SwitchToPauseCommand.cs" />
+    <Compile Include="ICommand\SwitchToPlayCommand.cs" />
+    <Compile Include="ICommand\SwitchToStartCommand.cs" />
+    <Compile Include="ICommand\UpLineCommand.cs" />
+    <Compile Include="IController\IController.cs" />
+    <Compile Include="IController\InventoryScreenController.cs" />
+    <Compile Include="IController\LoseStateController.cs" />
+    <Compile Include="IController\PauseStateController.cs" />
+    <Compile Include="IController\PlayStateController.cs" />
+    <Compile Include="IController\StartStateController.cs" />
+    <Compile Include="IController\InventoryController.cs" />
+    <Compile Include="IController\WinStateController.cs" />
+    <Compile Include="IEnemyState\GreenDragonState\GreenDragonWalkLeftDamageState.cs" />
+    <Compile Include="IEnemyState\GreenDragonState\GreenDragonWalkLeftState.cs" />
+    <Compile Include="IEnemyState\GreenDragonState\GreenDragonWalkRightDamageState.cs" />
+    <Compile Include="IEnemyState\GreenDragonState\GreenDragonWalkRightState.cs" />
+    <Compile Include="IEnemyState\yellowDragonState\DragonWalkDownDamageState.cs" />
+    <Compile Include="IEnemyState\yellowDragonState\DragonWalkDownState.cs" />
+    <Compile Include="IEnemyState\yellowDragonState\DragonWalkLeftDamageState.cs" />
+    <Compile Include="IEnemyState\yellowDragonState\DragonWalkLeftState.cs" />
+    <Compile Include="IEnemyState\yellowDragonState\DragonWalkRightDamageState.cs" />
+    <Compile Include="IEnemyState\yellowDragonState\DragonWalkRightState.cs" />
+    <Compile Include="IEnemyState\yellowDragonState\DragonWalkUpDamageState.cs" />
+    <Compile Include="IEnemyState\yellowDragonState\DragonWalkUpState.cs" />
+    <Compile Include="IEnemy\Dragon.cs" />
+    <Compile Include="IEnemy\GreenDragon.cs" />
+    <Compile Include="IEnemy\IEnemy.cs" />
+    <Compile Include="IEnemy\SimpleMoveEnemy\Goriya.cs" />
+    <Compile Include="IEnemy\SimpleMoveEnemy\Keese.cs" />
+    <Compile Include="IEnemy\SimpleMoveEnemy\Rope.cs" />
+    <Compile Include="IEnemy\SimpleMoveEnemy\Stalfos.cs" />
+    <Compile Include="IEnemy\SimpleMoveEnemy\Zol.cs" />
+    <Compile Include="IEnemy\staticEnemy\Flame.cs" />
+    <Compile Include="IEnemy\staticEnemy\Trap.cs" />
+    <Compile Include="IEnemy\WallMaster.cs" />
+    <Compile Include="IInventory\IInventory.cs" />
+    <Compile Include="IInventory\Inventory.cs" />
+    <Compile Include="IInventory\InventoryDraw.cs" />
+    <Compile Include="IItemState\BombState\BombAppearExplodeState.cs" />
+    <Compile Include="IItemState\BombState\BombAppearUnExplodeState.cs" />
+    <Compile Include="IItemState\BombState\DamageBombAppearExplodeState.cs" />
+    <Compile Include="IItemState\BombState\DamageBombAppearUnExplodeState.cs" />
+    <Compile Include="IItemState\IitemState.cs" />
+    <Compile Include="IItemState\LinkItemState\AppearDownState.cs" />
+    <Compile Include="IItemState\LinkItemState\AppearLeftState.cs" />
+    <Compile Include="IItemState\LinkItemState\AppearRightState.cs" />
+    <Compile Include="IItemState\LinkItemState\AppearUpState.cs" />
+    <Compile Include="IItem\Iitem.cs" />
+    <Compile Include="IItem\LinkItem\Arrow.cs" />
+    <Compile Include="IItem\LinkItem\BlueCandle.cs" />
+    <Compile Include="IItem\LinkItem\Bomb.cs" />
+    <Compile Include="IItem\LinkItem\Bow.cs" />
+    <Compile Include="IItem\LinkItem\DamageArrow.cs" />
+    <Compile Include="IItem\LinkItem\DamageBomb.cs" />
+    <Compile Include="IItem\LinkItem\DamageBow.cs" />
+    <Compile Include="IItem\LinkItem\DamageFire.cs" />
+    <Compile Include="IItem\LinkItem\DamageWoodenBoomerang.cs" />
+    <Compile Include="IItem\LinkItem\FireSpreadMiddle.cs" />
+    <Compile Include="IItem\LinkItem\FireSpreadDown.cs" />
+    <Compile Include="IItem\LinkItem\FireSpreadUp.cs" />
+    <Compile Include="IItem\LinkItem\Fire.cs" />
+    <Compile Include="IItem\LinkItem\DamageSword.cs" />
+    <Compile Include="IItem\LinkItem\Sword.cs" />
+    <Compile Include="IItem\LinkItem\WoodenBoomerang.cs" />
+    <Compile Include="IItem\StaticItem\BluePotion.cs" />
+    <Compile Include="IItem\StaticItem\BlueRing.cs" />
+    <Compile Include="IItem\StaticItem\Cloud.cs" />
+    <Compile Include="IItem\StaticItem\Clock.cs" />
+    <Compile Include="IItem\StaticItem\Compass.cs" />
+    <Compile Include="IItem\StaticItem\Fairy.cs" />
+    <Compile Include="IItem\StaticItem\Heart.cs" />
+    <Compile Include="IItem\StaticItem\Key.cs" />
+    <Compile Include="IItem\StaticItem\LockedDoor.cs" />
+    <Compile Include="IItem\StaticItem\Map.cs" />
+    <Compile Include="IItem\StaticItem\staticBomb.cs" />
+    <Compile Include="IItem\StaticItem\staticBow.cs" />
+    <Compile Include="IItem\StaticItem\staticCandle.cs" />
+    <Compile Include="IItem\StaticItem\staticWoodenBoomerang.cs" />
+    <Compile Include="IItem\StaticItem\TriforcePiece.cs" />
+    <Compile Include="IItem\StaticItem\box.cs" />
+    <Compile Include="IItem\StaticItem\Wall.cs" />
+    <Compile Include="IItem\StaticItem\YellowDiamond.cs" />
+    <Compile Include="ILevel\ILevel.cs" />
+    <Compile Include="ILevel\level1.cs" />
+    <Compile Include="IPlayerState\Iplayerstate.cs" />
+    <Compile Include="IPlayerState\LinkStandDown\LinkStandDownAttackNonDamageState.cs" />
+    <Compile Include="IPlayerState\LinkStandDown\LinkStandDownAttackDamageState.cs" />
+    <Compile Include="IPlayerState\LinkStandDown\LinkStandDownNonAttackDamageState.cs" />
+    <Compile Include="IPlayerState\LinkStandDown\LinkStandDownNonAttackNonDamageState.cs" />
+    <Compile Include="IPlayerState\LinkStandLeft\LinkStandLeftAttackNonDamageState.cs" />
+    <Compile Include="IPlayerState\LinkStandLeft\LinkStandLeftAttackDamageState.cs" />
+    <Compile Include="IPlayerState\LinkStandLeft\LinkStandLeftNonAttackDamageState.cs" />
+    <Compile Include="IPlayerState\LinkStandLeft\LinkStandLeftNonAttackNonDamageState.cs" />
+    <Compile Include="IPlayerState\LinkStandRight\LinkStandRightAttackDamageState.cs" />
+    <Compile Include="IPlayerState\LinkStandRight\LinkStandRightAttackNonDamageState.cs" />
+    <Compile Include="IPlayerState\LinkStandRight\LinkStandRightNonAttackDamageState.cs" />
+    <Compile Include="IPlayerState\LinkStandRight\LinkStandRightNonAttackNonDamageState.cs" />
+    <Compile Include="IPlayerState\LinkStandUp\LinkStandUpAttackNonDamageState.cs" />
+    <Compile Include="IPlayerState\LinkStandUp\LinkStandUpAttackDamageState.cs" />
+    <Compile Include="IPlayerState\LinkStandUp\LinkStandUpNonAttackDamageState.cs" />
+    <Compile Include="IPlayerState\LinkStandUp\LinkStandUpNonAttackNonDamageState.cs" />
+    <Compile Include="IPlayerState\LinkWalkDown\LinkWalkDownNonAttackDamageState.cs" />
+    <Compile Include="IPlayerState\LinkWalkDown\LinkWalkDownNonAttackNonDamageState.cs" />
+    <Compile Include="IPlayerState\LinkWalkLeft\LinkWalkLeftNonAttackDamageState.cs" />
+    <Compile Include="IPlayerState\LinkWalkLeft\LinkWalkLeftNonAttackNonDamageState.cs" />
+    <Compile Include="IPlayerState\LinkWalkRight\LinkWalkRightNonAttackDamageState.cs" />
+    <Compile Include="IPlayerState\LinkWalkRight\LinkWalkRightNonAttackNonDamageState.cs" />
+    <Compile Include="IPlayerState\LinkWalkUp\LinkWalkUpNonAttackDamageState.cs" />
+    <Compile Include="IPlayerState\LinkWalkUp\LinkWalkUpStateNonAttackNonDamage.cs" />
+    <Compile Include="IPlayerState\LinkWinning\LinkWinningState.cs" />
+    <Compile Include="IPlayerState\LinkWithItem\LinkWithItemDownState.cs" />
+    <Compile Include="IPlayerState\LinkWithItem\LinkWithItemLeftState.cs" />
+    <Compile Include="IPlayerState\LinkWithItem\LinkWithItemRightState.cs" />
+    <Compile Include="IPlayerState\LinkWithItem\LinkWithItemUpState.cs" />
+    <Compile Include="IRoom\ObjectLoader.cs" />
+    <Compile Include="IRoom\RoomLoader.cs" />
+    <Compile Include="ISprite\EnemySpriteFactory.cs" />
+    <Compile Include="ISprite\EnemySprite\BatSprite.cs" />
+    <Compile Include="ISprite\EnemySprite\FlameSilentBurningSprite.cs" />
+    <Compile Include="ISprite\EnemySprite\GreenDragonDamageSprite.cs" />
+    <Compile Include="ISprite\EnemySprite\GreenDragonSprite.cs" />
+    <Compile Include="ISprite\EnemySprite\RedGoriyaSprite.cs" />
+    <Compile Include="ISprite\EnemySprite\RopeSprite.cs" />
+    <Compile Include="ISprite\EnemySprite\StalfoSprite.cs" />
+    <Compile Include="ISprite\EnemySprite\TrapSprite.cs" />
+    <Compile Include="ISprite\EnemySprite\WallMasterSprite.cs" />
+    <Compile Include="ISprite\EnemySprite\WallMasterStaticSprite.cs" />
+    <Compile Include="ISprite\EnemySprite\YellowDragonDamageSprite.cs" />
+    <Compile Include="ISprite\EnemySprite\YellowDragonSprite.cs" />
+    <Compile Include="ISprite\EnemySprite\ZolSprite.cs" />
+    <Compile Include="ISprite\ISprite.cs" />
+    <Compile Include="ISprite\ItemSpriteFactory.cs" />
+    <Compile Include="ISprite\ItemSprite\ArrowDamageSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\ArrowSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\BlueCandleDamageSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\BlueCandleSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\BombDamageSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\BombSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\BowDamageSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\BowSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\FireBallSpreadSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\FireBallSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\ItemBlueDiamondSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\ItemClockSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\ItemHeartSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\WoodBoomerangDamageSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\WoodBoomerangSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\WoodSwordDamageSprite.cs" />
+    <Compile Include="ISprite\ItemSprite\WoodSwordSprite.cs" />
+    <Compile Include="ISprite\LinkSpriteFactory.cs" />
+    <Compile Include="ISprite\LinkSprite\LinkWalk.cs" />
+    <Compile Include="ISprite\LinkSprite\LinkDamageWalk.cs" />
+    <Compile Include="ISprite\LinkSprite\LinkStand.cs" />
+    <Compile Include="ISprite\LinkSprite\LinkDamageStand.cs" />
+    <Compile Include="ISprite\LinkSprite\LinkDamageAttack.cs" />
+    <Compile Include="ISprite\LinkSprite\LinkAttack.cs" />
+    <Compile Include="ISprite\LinkSprite\LinkWinningSprite.cs" />
+    <Compile Include="ISprite\ShiningDotSprite.cs" />
+    <Compile Include="ISprite\StaticSprite.cs" />
+    <Compile Include="Generator\NumberGenerator.cs" />
+    <Compile Include="Sound.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="ICamera\camera.cs" />
+    <Compile Include="ICamera\ICamera.cs" />
+    <Compile Include="IEnemyState\IEnemyState.cs" />
+    <Compile Include="IEnemyState\SimpleMoveEnemyState\EnemyWalkDownState.cs" />
+    <Compile Include="IEnemyState\SimpleMoveEnemyState\EnemyWalkLeftState.cs" />
+    <Compile Include="IEnemyState\SimpleMoveEnemyState\EnemyWalkRightState.cs" />
+    <Compile Include="IEnemyState\SimpleMoveEnemyState\EnemyWalkUpState.cs" />
+    <Compile Include="IEnemyState\WallMasterState\WallMasterLeftDynamicState.cs" />
+    <Compile Include="IEnemyState\WallMasterState\WallMasterLeftStaticState.cs" />
+    <Compile Include="IEnemyState\WallMasterState\WallMasterRightDynamicState.cs" />
+    <Compile Include="IEnemyState\WallMasterState\WallMasterRightStaticState.cs" />
+    <Compile Include="INPC\INPC.cs" />
+    <Compile Include="INPC\Merchant.cs" />
+    <Compile Include="INPC\OldMan.cs" />
+    <Compile Include="INPC\Princess.cs" />
+    <Compile Include="IPlayer\Iplayer.cs" />
+    <Compile Include="IPlayer\Link.cs" />
+    <Compile Include="IRoom\IRoom.cs" />
+    <Compile Include="IRoom\Room.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Generator\Texture2DStorage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bow.png" />
+    <Content Include="Content\candle.png" />
+    <Content Include="Content\characters.png" />
+    <Content Include="Content\enemy.png" />
+    <Content Include="Content\enemy2.png" />
+    <Content Include="Content\item-Inventory.PNG" />
+    <Content Include="Content\item.png" />
+    <Content Include="Content\link--final.png" />
+    <Content Include="Content\link-final.png" />
+    <Content Include="Content\link.png" />
+    <Content Include="Content\LoseScreen.png" />
+    <Content Include="Content\Text.png" />
+    <Content Include="Content\woodenboomerang.png" />
+    <Content Include="Icon.ico" />
+    <Content Include="IRoom\New-XML\room1.xml" />
+    <Content Include="IRoom\New-XML\room10.xml" />
+    <Content Include="IRoom\New-XML\room11.xml" />
+    <Content Include="IRoom\New-XML\room12.xml" />
+    <Content Include="IRoom\New-XML\room13.xml" />
+    <Content Include="IRoom\New-XML\room14.xml" />
+    <Content Include="IRoom\New-XML\room15.xml" />
+    <Content Include="IRoom\New-XML\room16.xml" />
+    <Content Include="IRoom\New-XML\room17.xml" />
+    <Content Include="IRoom\New-XML\room18.xml" />
+    <Content Include="IRoom\New-XML\room19.xml" />
+    <Content Include="IRoom\New-XML\room2.xml" />
+    <Content Include="IRoom\New-XML\room3.xml" />
+    <Content Include="IRoom\New-XML\room4.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="IRoom\New-XML\room5.xml" />
+    <Content Include="IRoom\New-XML\room6.xml" />
+    <Content Include="IRoom\New-XML\room7.xml" />
+    <Content Include="IRoom\New-XML\room8.xml" />
+    <Content Include="IRoom\New-XML\room9.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="app.manifest" />
+    <None Include="Content\bin\Windows\bow.xnb" />
+    <None Include="Content\bin\Windows\candle.xnb" />
+    <None Include="Content\bin\Windows\characters.xnb" />
+    <None Include="Content\bin\Windows\Content\bow.xnb" />
+    <None Include="Content\bin\Windows\Content\candle.xnb" />
+    <None Include="Content\bin\Windows\Content\characters.xnb" />
+    <None Include="Content\bin\Windows\Content\enemy.xnb" />
+    <None Include="Content\bin\Windows\Content\enemy2.xnb" />
+    <None Include="Content\bin\Windows\Content\item.xnb" />
+    <None Include="Content\bin\Windows\Content\link--final.xnb" />
+    <None Include="Content\bin\Windows\Content\link.xnb" />
+    <None Include="Content\bin\Windows\Content\woodenboomerang.xnb" />
+    <None Include="Content\bin\Windows\enemy.xnb" />
+    <None Include="Content\bin\Windows\enemy2.xnb" />
+    <None Include="Content\bin\Windows\item.xnb" />
+    <None Include="Content\bin\Windows\link--final.xnb" />
+    <None Include="Content\bin\Windows\link.xnb" />
+    <None Include="Content\bin\Windows\woodenboomerang.xnb" />
+    <None Include="Content\Content.mgcb" />
+    <None Include="Content\obj\Windows\.mgcontent" />
+    <None Include="Content\obj\Windows\.mgstats" />
+    <None Include="Content\obj\Windows\bow.mgcontent" />
+    <None Include="Content\obj\Windows\candle.mgcontent" />
+    <None Include="Content\obj\Windows\characters.mgcontent" />
+    <None Include="Content\obj\Windows\Content\.mgcontent" />
+    <None Include="Content\obj\Windows\Content\.mgstats" />
+    <None Include="Content\obj\Windows\Content\bow.mgcontent" />
+    <None Include="Content\obj\Windows\Content\candle.mgcontent" />
+    <None Include="Content\obj\Windows\Content\characters.mgcontent" />
+    <None Include="Content\obj\Windows\Content\enemy.mgcontent" />
+    <None Include="Content\obj\Windows\Content\enemy2.mgcontent" />
+    <None Include="Content\obj\Windows\Content\item.mgcontent" />
+    <None Include="Content\obj\Windows\Content\link--final.mgcontent" />
+    <None Include="Content\obj\Windows\Content\link.mgcontent" />
+    <None Include="Content\obj\Windows\Content\woodenboomerang.mgcontent" />
+    <None Include="Content\obj\Windows\enemy.mgcontent" />
+    <None Include="Content\obj\Windows\enemy2.mgcontent" />
+    <None Include="Content\obj\Windows\item.mgcontent" />
+    <None Include="Content\obj\Windows\link--final.mgcontent" />
+    <None Include="Content\obj\Windows\link.mgcontent" />
+    <None Include="Content\obj\Windows\woodenboomerang.mgcontent" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\Microsoft.CodeAnalysis.VersionCheckAnalyzer.2.9.8\analyzers\dotnet\cs\Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll" />
+    <Analyzer Include="..\packages\Microsoft.CodeAnalysis.VersionCheckAnalyzer.2.9.8\analyzers\dotnet\Microsoft.CodeAnalysis.VersionCheckAnalyzer.dll" />
+    <Analyzer Include="..\packages\Microsoft.CodeQuality.Analyzers.2.9.8\analyzers\dotnet\cs\Humanizer.dll" />
+    <Analyzer Include="..\packages\Microsoft.CodeQuality.Analyzers.2.9.8\analyzers\dotnet\cs\Microsoft.CodeQuality.Analyzers.dll" />
+    <Analyzer Include="..\packages\Microsoft.CodeQuality.Analyzers.2.9.8\analyzers\dotnet\cs\Microsoft.CodeQuality.CSharp.Analyzers.dll" />
+    <Analyzer Include="..\packages\Microsoft.NetCore.Analyzers.2.9.8\analyzers\dotnet\cs\Microsoft.NetCore.Analyzers.dll" />
+    <Analyzer Include="..\packages\Microsoft.NetCore.Analyzers.2.9.8\analyzers\dotnet\cs\Microsoft.NetCore.CSharp.Analyzers.dll" />
+    <Analyzer Include="..\packages\Microsoft.NetFramework.Analyzers.2.9.8\analyzers\dotnet\cs\Microsoft.NetFramework.Analyzers.dll" />
+    <Analyzer Include="..\packages\Microsoft.NetFramework.Analyzers.2.9.8\analyzers\dotnet\cs\Microsoft.NetFramework.CSharp.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeAnalysis.VersionCheckAnalyzer.2.9.8\build\Microsoft.CodeAnalysis.VersionCheckAnalyzer.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeAnalysis.VersionCheckAnalyzer.2.9.8\build\Microsoft.CodeAnalysis.VersionCheckAnalyzer.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeQuality.Analyzers.2.9.8\build\Microsoft.CodeQuality.Analyzers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeQuality.Analyzers.2.9.8\build\Microsoft.CodeQuality.Analyzers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.NetCore.Analyzers.2.9.8\build\Microsoft.NetCore.Analyzers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.NetCore.Analyzers.2.9.8\build\Microsoft.NetCore.Analyzers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.NetFramework.Analyzers.2.9.8\build\Microsoft.NetFramework.Analyzers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.NetFramework.Analyzers.2.9.8\build\Microsoft.NetFramework.Analyzers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.9.8\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.9.8\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

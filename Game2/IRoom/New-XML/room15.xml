@@ -1,0 +1,175 @@
+<XnaContent>
+<!-- contain enemy Ropes, item Heart, 8 bounding boxs, 2 stairs at designed position-->
+<Asset Type="MyDataTypes.LevelObjectData[]">
+  <Item>
+    <ObjectType>Room</ObjectType>
+    <ObjectName>RoomNum</ObjectName>
+    <num>15</num>
+    <num>15</num>
+  </Item>
+  <Item>
+    <ObjectType>Room</ObjectType>
+    <ObjectName>Room</ObjectName>
+    <width>13</width>
+    <height>19</height>
+  </Item>
+  <Item>
+    <ObjectType>Room</ObjectType>
+    <ObjectName>Up</ObjectName>
+    <UpRoom>13</UpRoom>
+    <UpRoom>13</UpRoom>
+  </Item>
+
+  <!--  enemy  -->
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Keese</ObjectName>
+    <posX>69</posX>
+    <posY>54</posY>
+  </Item>
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Keese</ObjectName>
+    <posX>27</posX>
+    <posY>58</posY>
+  </Item>
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Keese</ObjectName>
+    <posX>44</posX>
+    <posY>63</posY>
+  </Item>
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Keese</ObjectName>
+    <posX>38</posX>
+    <posY>27</posY>
+  </Item>
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Keese</ObjectName>
+    <posX>58</posX>
+    <posY>27</posY>
+  </Item>
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Keese</ObjectName>
+    <posX>48</posX>
+    <posY>54</posY>
+  </Item>
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Keese</ObjectName>
+    <posX>75</posX>
+    <posY>46</posY>
+  </Item>
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Keese</ObjectName>
+    <posX>50</posX>
+    <posY>36</posY>
+  </Item>
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Keese</ObjectName>
+    <posX>25</posX>
+    <posY>36</posY>
+  </Item>
+  <!--  enemy  -->
+  <!--  item  -->
+  <Item>
+    <ObjectType>Item</ObjectType>
+    <ObjectName>TriforcePiece</ObjectName>
+    <posX>66</posX>
+    <posY>47</posY>
+  </Item>
+  <Item>
+    <ObjectType>Item</ObjectType>
+    <ObjectName>Heart</ObjectName>
+    <posX>60</posX>
+    <posY>47</posY>
+  </Item>
+  
+  <!--  item  -->
+
+  <!--  Box  -->
+  <Item>
+    <ObjectType>Box</ObjectType>
+    <ObjectName>Box1</ObjectName>
+    <posX>0</posX>
+    <posY>0</posY>
+    <width>19</width>
+    <height>60</height>
+  </Item>
+  <Item>
+    <ObjectType>Box</ObjectType>
+    <ObjectName>Box2</ObjectName>
+    <posX>0</posX>
+    <posY>61</posY>
+    <width>12</width>
+    <height>39</height>
+  </Item>
+    <Item>
+    <ObjectType>Box</ObjectType>
+    <ObjectName>Box3</ObjectName>
+    <posX>12</posX>
+    <posY>81</posY>
+    <width>87</width>
+    <height>19</height>
+  </Item>
+  <Item>
+    <ObjectType>Box</ObjectType>
+    <ObjectName>Box4</ObjectName>
+    <posX>87</posX>
+    <posY>0</posY>
+    <width>12</width>
+    <height>100</height>
+  </Item>
+  <Item>
+    <ObjectType>Box</ObjectType>
+    <ObjectName>Box5</ObjectName>
+    <posX>25</posX>
+    <posY>0</posY>
+    <width>63</width>
+    <height>21</height>
+  </Item>
+    <Item>
+    <ObjectType>Box</ObjectType>
+    <ObjectName>Box6</ObjectName>
+    <posX>25</posX>
+    <posY>20</posY>
+    <width>19</width>
+    <height>41</height>
+  </Item>
+  <Item>
+    <ObjectType>Box</ObjectType>
+    <ObjectName>Box7</ObjectName>
+    <posX>44</posX>
+    <posY>51</posY>
+    <width>24</width>
+    <height>10</height>
+  </Item>
+    <Item>
+    <ObjectType>Box</ObjectType>
+    <ObjectName>Box8</ObjectName>
+    <posX>75</posX>
+    <posY>51</posY>
+    <width>12</width>
+    <height>10</height>
+  </Item>
+  <!--  Box  -->
+ 
+  <!--  Stair  -->
+  <!--  stair position precentage relates to the room  -->
+  <!--  destination room position on level map  -->
+  <Item>
+    <ObjectType>Stair</ObjectType>
+    <ObjectName>Up</ObjectName>
+    <posX>19</posX>
+    <posY>0</posY>
+    <destX>0</destX> 
+    <destY>707</destY>
+  </Item>
+  <!--  Stair  -->
+</Asset>
+</XnaContent>

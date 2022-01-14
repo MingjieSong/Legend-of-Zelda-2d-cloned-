@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/bow.png</File>
+    <File>C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/candle.png</File>
+    <File>C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/characters.png</File>
+    <File>C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/enemy.png</File>
+    <File>C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/enemy2.png</File>
+    <File>C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/item.png</File>
+    <File>C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/link.png</File>
+    <File>C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/link--final.png</File>
+    <File>C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/woodenboomerang.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

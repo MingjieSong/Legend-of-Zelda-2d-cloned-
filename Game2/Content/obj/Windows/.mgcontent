@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/bgm.mp3</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/black.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/bow.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/button.jpg</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/candle.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/characters.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/cloud.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/collision.wav</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/container.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/door.PNG</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/emptyInventory.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/enemy.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/enemy2.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/enemy3.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/enemyCloud.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/font.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/HurtBoom.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/HurtBoomg.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/HurtBow.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/hurtDragon.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/HurtFire.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/Inventory.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/item.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/itemCollision.wav</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/link.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/link--final.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/Logo.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/lose.mp3</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/LoseScreen.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/mapBar.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/mapInventory.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/room.mp3</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/Text.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/UDweapon.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/win.mp3</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/winLogo.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/woodenboomerang.png</File>
+    <File>C:/Users/zz/Desktop/new/CSE-3902/Game2/Content/Zelda_story.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

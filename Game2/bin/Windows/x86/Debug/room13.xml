@@ -1,0 +1,255 @@
+<XnaContent>
+  <!--  contain enemy 2 Goriya and 2 Zol, item Compass, Key, TriforcePiece, 22 blocks, 1 door, 1 stair at designed position  -->
+  <Asset Type="MyDataTypes.LevelObjectData[]">
+    <!--  room  -->
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>RoomNum</ObjectName>
+      <num>13</num>
+      <num>13</num>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Room</ObjectName>
+      <posX>13</posX>
+      <posX>19</posX>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Up</ObjectName>
+      <UpRoom>10</UpRoom>
+      <UpRoom>10</UpRoom>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Right</ObjectName>
+      <UpRoom>15</UpRoom>
+      <UpRoom>15</UpRoom>
+    </Item>
+
+
+    <!--  room  -->
+    <!--  enemy  -->
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Goriya</ObjectName>
+      <posX>60</posX>
+      <posY>30</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Goriya</ObjectName>
+      <posX>19</posX>
+      <posY>28</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Goriya</ObjectName>
+      <posX>39</posX>
+      <posY>47</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Zol</ObjectName>
+      <posX>15</posX>
+      <posY>38</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Zol</ObjectName>
+      <posX>26</posX>
+      <posY>65</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Zol</ObjectName>
+      <posX>50</posX>
+      <posY>70</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>GreenDragon</ObjectName>
+      <posX>65</posX>
+      <posY>40</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>WallMaster</ObjectName>
+      <posX>68</posX>
+      <posY>40</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>WallMaster</ObjectName>
+      <posX>15</posX>
+      <posY>40</posY>
+    </Item>
+    <!--  enemy  -->
+    <!--  item  -->
+    <Item>
+      <ObjectType>Item</ObjectType>
+      <ObjectName>BlueRing</ObjectName>
+      <posX>50</posX>
+      <posY>64</posY>
+    </Item>
+     
+     
+    <!--  item  -->
+
+    <!--  Block  -->
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block1</ObjectName>
+      <posX>63</posX>
+      <posY>19</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block2</ObjectName>
+      <posX>63</posX>
+      <posY>28</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block3</ObjectName>
+      <posX>63</posX>
+      <posY>64</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block4</ObjectName>
+      <posX>63</posX>
+      <posY>73</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block5</ObjectName>
+      <posX>69</posX>
+      <posY>19</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block6</ObjectName>
+      <posX>69</posX>
+      <posY>28</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block7</ObjectName>
+      <posX>69</posX>
+      <posY>37</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block8</ObjectName>
+      <posX>69</posX>
+      <posY>55</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block9</ObjectName>
+      <posX>69</posX>
+      <posY>64</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block10</ObjectName>
+      <posX>69</posX>
+      <posY>73</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block11</ObjectName>
+      <posX>75</posX>
+      <posY>19</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block12</ObjectName>
+      <posX>75</posX>
+      <posY>28</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block13</ObjectName>
+      <posX>75</posX>
+      <posY>37</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block14</ObjectName>
+      <posX>75</posX>
+      <posY>55</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block15</ObjectName>
+      <posX>75</posX>
+      <posY>64</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block16</ObjectName>
+      <posX>75</posX>
+      <posY>73</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block17</ObjectName>
+      <posX>81</posX>
+      <posY>19</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block18</ObjectName>
+      <posX>81</posX>
+      <posY>28</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block19</ObjectName>
+      <posX>81</posX>
+      <posY>37</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block20</ObjectName>
+      <posX>81</posX>
+      <posY>55</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block21</ObjectName>
+      <posX>81</posX>
+      <posY>64</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block22</ObjectName>
+      <posX>81</posX>
+      <posY>73</posY>
+    </Item>
+    <!--  Block  -->
+    <!--  Door  -->
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Up</ObjectName>
+      <posX>47</posX>
+      <posY>19</posY>
+    </Item>
+    <!--  Door  -->
+
+    <!--  Stair  -->
+    <!--  stair position precentage relates to the room  -->
+    <!--  destination room position on level map  -->
+    <Item>
+      <ObjectType>Stair</ObjectType>
+      <ObjectName>Stair</ObjectName>
+      <posX>86</posX>
+      <posY>46</posY>
+      <destX>0</destX>
+      <destY>0</destY>
+    </Item>
+    <!--  Stair  -->
+  </Asset>
+</XnaContent>

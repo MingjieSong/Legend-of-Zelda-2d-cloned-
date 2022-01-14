@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sprint2", "Game2\Sprint2.csproj", "{5FE3BA18-FE92-4C8D-AF35-3B569DAE9310}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3B4F01D3-54FB-4C3F-88BB-A1EC8AD5ADCC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FE3BA18-FE92-4C8D-AF35-3B569DAE9310}.Debug|x86.ActiveCfg = Debug|x86
+		{5FE3BA18-FE92-4C8D-AF35-3B569DAE9310}.Debug|x86.Build.0 = Debug|x86
+		{5FE3BA18-FE92-4C8D-AF35-3B569DAE9310}.Release|x86.ActiveCfg = Release|x86
+		{5FE3BA18-FE92-4C8D-AF35-3B569DAE9310}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {940D3AC5-A063-4EE8-A397-CDB88C4A857A}
+	EndGlobalSection
+EndGlobal

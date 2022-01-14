@@ -1,0 +1,115 @@
+﻿<XnaContent>
+  <!-- boss room -->
+  <Asset Type="MyDataTypes.LevelObjectData[]">
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>RoomNum</ObjectName>
+      <num>7</num>
+      <num>7</num>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Room</ObjectName>
+      <posX>13</posX>
+      <posY>19</posY>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Up</ObjectName>
+      <UpRoom>16</UpRoom>
+      <UpRoom>16</UpRoom>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Down</ObjectName>
+      <DownRoom>12</DownRoom>
+      <DownRoom>12</DownRoom>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Left</ObjectName>
+      <LeftRoom>11</LeftRoom>
+      <LeftRoom>11</LeftRoom>
+    </Item>
+    <!--  player  -->
+    <!--no need-->
+    <!--the position would be 125 145-->
+    <!-- player -->
+    <!--Insert all wanted items here-->>
+     
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Dragon</ObjectName>
+      <posX>35</posX>
+      <posY>46</posY>
+    </Item>
+
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Dragon</ObjectName>
+      <posX>46</posX>
+      <posY>21</posY>
+    </Item>
+
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Dragon</ObjectName>
+      <posX>46</posX>
+      <posY>60</posY>
+    </Item>
+    
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>GreenDragon</ObjectName>
+      <posX>80</posX>
+      <posY>50</posY>
+    </Item>
+     
+   
+    
+    <Item>
+      <ObjectType>Item</ObjectType>
+      <ObjectName>Clock</ObjectName>
+      <posX>16</posX>
+      <posY>64</posY>
+    </Item>
+    
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Up</ObjectName>
+      <posX>47</posX>
+      <posY>19</posY>
+    </Item>
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Left</ObjectName>
+      <posX>13</posX>
+      <posY>46</posY>
+    </Item>
+
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Down</ObjectName>
+      <posX>47</posX>
+      <posY>82</posY>
+    </Item>
+
+    <Item>
+      <ObjectType>Wall</ObjectType>
+      <ObjectName>Left</ObjectName>
+      <posX>10</posX>
+      <posY>46</posY>
+    </Item>
+
+    <!--locked door-->>
+    <Item>
+    <ObjectType>Item</ObjectType>
+    <ObjectName>Up</ObjectName>
+    <posX>44</posX>
+    <posY>8</posY>
+  </Item>
+
+     
+ 
+  </Asset>
+</XnaContent>

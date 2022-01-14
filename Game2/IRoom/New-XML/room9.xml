@@ -1,0 +1,173 @@
+﻿<XnaContent>
+  <Asset Type="MyDataTypes.LevelObjectData[]">
+    <!--  player  -->
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>RoomNum</ObjectName>
+      <num>9</num>
+      <num>9</num>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Room</ObjectName>
+      <width>13</width>
+      <height>19</height>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Up</ObjectName>
+      <UpRoom>11</UpRoom>
+      <UpRoom>11</UpRoom>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Left</ObjectName>
+      <LeftRoom>8</LeftRoom>
+      <LeftRoom>8</LeftRoom>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Right</ObjectName>
+      <RightRoom>12</RightRoom>
+      <RightRoom>12</RightRoom>
+    </Item>
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Up</ObjectName>
+      <posX>46</posX>
+      <posY>14</posY>
+    </Item>
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Left</ObjectName>
+      <posX>10</posX>
+      <posY>46</posY>
+    </Item>
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Right</ObjectName>
+      <posX>95</posX>
+      <posY>48</posY>
+    </Item>
+    <Item>
+      <ObjectType>Player</ObjectType>
+      <ObjectName>Link</ObjectName>
+      <posX>70</posX>
+      <posY>47</posY>
+    </Item>
+    <!--  player  -->
+    <!--  enemy  -->
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Stalfos</ObjectName>
+      <posX>46</posX>
+      <posY>28</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Stalfos</ObjectName>
+      <posX>46</posX>
+      <posY>63</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Stalfos</ObjectName>
+      <posX>27</posX>
+      <posY>46</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Stalfos</ObjectName>
+      <posX>72</posX>
+      <posY>46</posY>
+    </Item>
+    <!--  enemy  -->
+    <!--  item  -->
+    <Item>
+      <ObjectType>Item</ObjectType>
+      <ObjectName>StaticBomb</ObjectName>
+      <posX>55</posX>
+      <posY>55</posY>
+    </Item>
+    <Item>
+      <ObjectType>Item</ObjectType>
+      <ObjectName>Heart</ObjectName>
+      <posX>30</posX>
+      <posY>46</posY>
+    </Item>
+    <!--  item  -->
+    <!--  NPC  -->
+    <!--  NPC  -->
+    <!--  Block  -->
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block1</ObjectName>
+      <posX>20</posX>
+      <posY>28</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block2</ObjectName>
+      <posX>26</posX>
+      <posY>28</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block3</ObjectName>
+      <posX>20</posX>
+      <posY>63</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block4</ObjectName>
+      <posX>26</posX>
+      <posY>63</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block5</ObjectName>
+      <posX>45</posX>
+      <posY>47</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block6</ObjectName>
+      <posX>50</posX>
+      <posY>47</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block7</ObjectName>
+      <posX>70</posX>
+      <posY>28</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block8</ObjectName>
+      <posX>75</posX>
+      <posY>28</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block9</ObjectName>
+      <posX>70</posX>
+      <posY>63</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block10</ObjectName>
+      <posX>75</posX>
+      <posY>63</posY>
+    </Item>
+    <!--  Block  -->
+
+    <Item>
+      <ObjectType>Wall</ObjectType>
+      <ObjectName>Left</ObjectName>
+      <posX>10</posX>
+      <posY>46</posY>
+    </Item>
+
+     
+  </Asset>
+</XnaContent>

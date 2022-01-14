@@ -1,0 +1,131 @@
+﻿<XnaContent>
+  <Asset Type="MyDataTypes.LevelObjectData[]">
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>RoomNum</ObjectName>
+      <num>8</num>
+      <num>8</num>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Room</ObjectName>
+      <width>13</width>
+      <height>19</height>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Up</ObjectName>
+      <UpRoom>17</UpRoom>
+      <UpRoom>17</UpRoom>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Down</ObjectName>
+      <DownRoom>18</DownRoom>
+      <DownRoom>18</DownRoom>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Left</ObjectName>
+      <LeftRoom>6</LeftRoom>
+      <LeftRoom>6</LeftRoom>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Right</ObjectName>
+      <RightRoom>9</RightRoom>
+      <RightRoom>9</RightRoom>
+    </Item>
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Up</ObjectName>
+      <posX>46</posX>
+      <posY>14</posY>
+    </Item>
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Down</ObjectName>
+      <posX>47</posX>
+      <posY>81</posY>
+    </Item>
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Left</ObjectName>
+      <posX>10</posX>
+      <posY>46</posY>
+    </Item>
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Right</ObjectName>
+      <posX>95</posX>
+      <posY>48</posY>
+    </Item>
+    <!--  player  -->
+    <Item>
+      <ObjectType>Player</ObjectType>
+      <ObjectName>Link</ObjectName>
+      <posX>33</posX>
+      <posY>37</posY>
+    </Item>
+    <!--  player  -->
+    <!--  enemy  -->
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Dragon</ObjectName>
+      <posX>64</posX>
+      <posY>37</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>WallMaster</ObjectName>
+      <posX>25</posX>
+      <posY>55</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>WallMaster</ObjectName>
+      <posX>25</posX>
+      <posY>65</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Keese</ObjectName>
+      <posX>65</posX>
+      <posY>27</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Keese</ObjectName>
+      <posX>65</posX>
+      <posY>42</posY>
+    </Item>
+
+    <!--  enemy  -->
+    <!--  item  -->
+    <Item>
+      <ObjectType>Item</ObjectType>
+      <ObjectName>Clock</ObjectName>
+      <posX>46</posX>
+      <posY>47</posY>
+    </Item>
+    <!--  item  -->
+
+    <!--  Block  -->
+    <!--  Block  -->
+    <!--  Wall   -->
+    <Item>
+      <ObjectType>Wall</ObjectType>
+      <ObjectName>Right</ObjectName>
+      <posX>87</posX>
+      <posY>30</posY>
+    </Item>
+    <!--  Wall   -->
+
+    <Item>
+      <ObjectType>Item</ObjectType>
+      <ObjectName>StaticBomb</ObjectName>
+      <posX>59</posX>
+      <posY>55</posY>
+    </Item>
+  </Asset>
+</XnaContent>

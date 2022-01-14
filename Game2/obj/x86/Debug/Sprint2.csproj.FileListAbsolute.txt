@@ -1,0 +1,217 @@
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.pdb
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe.CodeAnalysisLog.xml
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe.lastcodeanalysissucceeded
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.dll
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.xml
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\osu 2020 sp\3902\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\osu 2020 sp\3902\CSE-3902\Game2\obj\x86\Debug\Sprint2.csprojAssemblyReference.cache
+D:\osu 2020 sp\3902\CSE-3902\Game2\obj\x86\Debug\Sprint2.csproj.CopyComplete
+D:\osu 2020 sp\3902\CSE-3902\Game2\obj\x86\Debug\Game2.exe
+D:\osu 2020 sp\3902\CSE-3902\Game2\obj\x86\Debug\Game2.pdb
+D:\3902nn\CSE-3902\Game2\obj\x86\Debug\Sprint2.csprojAssemblyReference.cache
+D:\3902nn\CSE-3902\Game2\obj\x86\Debug\Game2.exe
+D:\3902nn\CSE-3902\Game2\obj\x86\Debug\Game2.pdb
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.pdb
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe.CodeAnalysisLog.xml
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe.lastcodeanalysissucceeded
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.dll
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.xml
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\3902nn\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\3902nn\CSE-3902\Game2\obj\x86\Debug\Sprint2.csproj.CopyComplete
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.pdb
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe.CodeAnalysisLog.xml
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe.lastcodeanalysissucceeded
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Yilai\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\Yilai\CSE-3902\Game2\obj\x86\Debug\Sprint2.csprojAssemblyReference.cache
+C:\Users\Yilai\CSE-3902\Game2\obj\x86\Debug\Sprint2.csproj.CoreCompileInputs.cache
+C:\Users\Yilai\CSE-3902\Game2\obj\x86\Debug\Sprint2.csproj.CopyComplete
+C:\Users\Yilai\CSE-3902\Game2\obj\x86\Debug\Game2.exe
+C:\Users\Yilai\CSE-3902\Game2\obj\x86\Debug\Game2.pdb
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.pdb
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe.CodeAnalysisLog.xml
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe.lastcodeanalysissucceeded
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\zz\Desktop\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\zz\Desktop\CSE-3902\Game2\obj\x86\Debug\Sprint2.csprojAssemblyReference.cache
+C:\Users\zz\Desktop\CSE-3902\Game2\obj\x86\Debug\Sprint2.csproj.CopyComplete
+C:\Users\zz\Desktop\CSE-3902\Game2\obj\x86\Debug\Game2.exe
+C:\Users\zz\Desktop\CSE-3902\Game2\obj\x86\Debug\Game2.pdb
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.pdb
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe.CodeAnalysisLog.xml
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe.lastcodeanalysissucceeded
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.dll
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.xml
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\obj\x86\Debug\Sprint2.csprojAssemblyReference.cache
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\obj\x86\Debug\Sprint2.csproj.CopyComplete
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\obj\x86\Debug\Game2.exe
+D:\osu 2020 sp\3902\chage oldman\CSE-3902\Game2\obj\x86\Debug\Game2.pdb
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.pdb
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe.CodeAnalysisLog.xml
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe.lastcodeanalysissucceeded
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\zz\Desktop\new\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\zz\Desktop\new\CSE-3902\Game2\obj\x86\Debug\Sprint2.csprojAssemblyReference.cache
+C:\Users\zz\Desktop\new\CSE-3902\Game2\obj\x86\Debug\Sprint2.csproj.CopyComplete
+C:\Users\zz\Desktop\new\CSE-3902\Game2\obj\x86\Debug\Game2.exe
+C:\Users\zz\Desktop\new\CSE-3902\Game2\obj\x86\Debug\Game2.pdb
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\Game2.exe
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\Game2.pdb
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\Game2.exe.CodeAnalysisLog.xml
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\Game2.exe.lastcodeanalysissucceeded
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\obj\x86\Debug\Sprint2.csprojAssemblyReference.cache
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\obj\x86\Debug\Sprint2.csproj.CopyComplete
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\obj\x86\Debug\Game2.exe
+C:\Users\Mingjie\OneDrive\Documents\zelda\Game2\obj\x86\Debug\Game2.pdb
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.pdb
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe.CodeAnalysisLog.xml
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\Game2.exe.lastcodeanalysissucceeded
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\obj\x86\Debug\Sprint2.csprojAssemblyReference.cache
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\obj\x86\Debug\Sprint2.csproj.CopyComplete
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\obj\x86\Debug\Game2.exe
+C:\Users\zz\Desktop\Sprint5\CSE-3902\Game2\obj\x86\Debug\Game2.pdb
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\Game2.exe
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\Game2.pdb
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\Game2.exe.CodeAnalysisLog.xml
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\Game2.exe.lastcodeanalysissucceeded
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\obj\x86\Debug\Sprint2.csprojAssemblyReference.cache
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\obj\x86\Debug\Sprint2.csproj.CopyComplete
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\obj\x86\Debug\Game2.exe
+C:\Users\Mingjie\OneDrive\Documents\finalversion\Game2\obj\x86\Debug\Game2.pdb

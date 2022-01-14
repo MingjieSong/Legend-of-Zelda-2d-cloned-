@@ -1,0 +1,123 @@
+﻿<XnaContent>
+  <!-- the npc shop room on top of room 1-->
+  <Asset Type="MyDataTypes.LevelObjectData[]">
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>RoomNum</ObjectName>
+      <num>6</num>
+      <num>6</num>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Room</ObjectName>
+      <posX>13</posX>
+      <posY>19</posY>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Up</ObjectName>
+      <UpRoom>5</UpRoom>
+      <UpRoom>5</UpRoom>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Left</ObjectName>
+      <LeftRoom>10</LeftRoom>
+      <LeftRoom>10</LeftRoom>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Right</ObjectName>
+      <RightRoom>8</RightRoom>
+      <RightRoom>8</RightRoom>
+    </Item>
+    <!--  player  -->
+    <!--no need-->
+    <!--the position would be 125 145-->
+    <!-- player -->
+    <!--Insert all wanted items here-->
+    <Item>
+      <ObjectType>Item</ObjectType>
+      <ObjectName>Heart</ObjectName>
+      <posX>80</posX>
+      <posY>20</posY>
+    </Item>
+   
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Zol</ObjectName>
+      <posX>40</posX>
+      <posY>60</posY>
+    </Item>
+   
+    
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Zol</ObjectName>
+      <posX>70</posX>
+      <posY>70</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Dragon</ObjectName>
+      <posX>50</posX>
+      <posY>50</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Zol</ObjectName>
+      <posX>30</posX>
+      <posY>55</posY>
+    </Item>
+    
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Zol</ObjectName>
+      <posX>50</posX>
+      <posY>40</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Zol</ObjectName>
+      <posX>60</posX>
+      <posY>30</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Zol</ObjectName>
+      <posX>70</posX>
+      <posY>40</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Dragon</ObjectName>
+      <posX>30</posX>
+      <posY>46</posY>
+    </Item>
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Up</ObjectName>
+      <posX>47</posX>
+      <posY>19</posY>
+    </Item>
+
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Left</ObjectName>
+      <posX>13</posX>
+      <posY>46</posY>
+    </Item>
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Right</ObjectName>
+      <posX>88</posX>
+      <posY>46</posY>
+    </Item>
+    <Item>
+      <ObjectType>Item</ObjectType>
+      <ObjectName>Up</ObjectName>
+      <posX>44</posX>
+      <posY>8</posY>
+    </Item>
+  </Asset>
+</XnaContent>

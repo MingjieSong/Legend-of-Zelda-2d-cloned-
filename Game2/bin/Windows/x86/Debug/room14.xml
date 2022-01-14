@@ -1,0 +1,132 @@
+<XnaContent>
+<!--  contain enemy 3 WallMaster and 2 Keese, item Clock, Key and TriforcePiece, npc OldMan, 4 blocks, 2 doors at designed position -->
+<Asset Type="MyDataTypes.LevelObjectData[]">
+  <!--  room  -->
+  <Item>
+    <ObjectType>Room</ObjectType>
+    <ObjectName>RoomNum</ObjectName>
+    <num>14</num>
+    <num>14</num>
+  </Item>
+  <Item>
+    <ObjectType>Room</ObjectType>
+    <ObjectName>Room</ObjectName>
+    <posX>13</posX>
+    <posY>19</posY>
+  </Item>
+  <Item>
+    <ObjectType>Room</ObjectType>
+    <ObjectName>Up</ObjectName>
+    <UpRoom>18</UpRoom>
+    <UpRoom>18</UpRoom>
+  </Item>
+  <Item>
+    <ObjectType>Room</ObjectType>
+    <ObjectName>Right</ObjectName>
+    <RightRoom>19</RightRoom>
+    <RightRoom>19</RightRoom>
+  </Item>
+
+  <!--  enemy  -->
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Dragon</ObjectName>
+    <posX>38</posX>
+    <posY>28</posY>
+  </Item>
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Dragon</ObjectName>
+    <posX>76</posX>
+    <posY>26</posY>
+  </Item>
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Dragon</ObjectName>
+    <posX>80</posX>
+    <posY>60</posY>
+  </Item>
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Stalfos</ObjectName>
+    <posX>19</posX>
+    <posY>36</posY>
+  </Item>
+  <Item>
+    <ObjectType>Enemy</ObjectType>
+    <ObjectName>Stalfos</ObjectName>
+    <posX>32</posX>
+    <posY>60</posY>
+  </Item>
+  <!--  enemy  -->
+  <!--  item  -->
+  <Item>
+    <ObjectType>Item</ObjectType>
+    <ObjectName>Heart</ObjectName>
+    <posX>35</posX>
+    <posY>46</posY>
+  </Item>
+  <Item>
+    <ObjectType>Item</ObjectType>
+    <ObjectName>BluePotion</ObjectName>
+    <posX>13</posX>
+    <posY>69</posY>
+  </Item>
+  <!--  item  -->
+  <!--  NPC  -->
+
+  <!--  NPC  -->
+  <!--  Block  -->
+  <Item>
+    <ObjectType>Block</ObjectType>
+    <ObjectName>Block1</ObjectName>
+    <posX>25</posX>
+    <posY>28</posY>
+  </Item>
+  <Item>
+    <ObjectType>Block</ObjectType>
+    <ObjectName>Block2</ObjectName>
+    <posX>25</posX>
+    <posY>64</posY>
+  </Item>
+    <Item>
+    <ObjectType>Block</ObjectType>
+    <ObjectName>Block3</ObjectName>
+    <posX>69</posX>
+    <posY>28</posY>
+  </Item>
+  <Item>
+    <ObjectType>Block</ObjectType>
+    <ObjectName>Block4</ObjectName>
+    <posX>69</posX>
+    <posY>64</posY>
+  </Item>
+  <!--  Block  -->
+  <!--  Door  -->
+  <Item>
+    <ObjectType>Door</ObjectType>
+    <ObjectName>Up</ObjectName>
+    <posX>47</posX>
+    <posY>19</posY>
+  </Item>
+  <Item>
+    <ObjectType>Door</ObjectType>
+    <ObjectName>Right</ObjectName>
+    <posX>88</posX>
+    <posY>46</posY>
+  </Item>
+  <!--  Door  -->
+  <Item>
+    <ObjectType>Item</ObjectType>
+    <ObjectName>Up</ObjectName>
+    <posX>44</posX>
+    <posY>8</posY>
+  </Item>
+  <Item>
+    <ObjectType>Item</ObjectType>
+    <ObjectName>Right</ObjectName>
+    <posX>87</posX>
+    <posY>42</posY>
+  </Item>
+</Asset>
+</XnaContent>

@@ -1,0 +1,83 @@
+﻿<XnaContent>
+<!-- the npc shop room on top of room 1-->
+  <Asset Type="MyDataTypes.LevelObjectData[]">
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>RoomNum</ObjectName>
+      <num>2</num>
+      <num>2</num>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Room</ObjectName>
+      <posX>13</posX>
+      <posY>19</posY>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Left</ObjectName>
+      <LeftRoom>3</LeftRoom>
+      <LeftRoom>3</LeftRoom>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Down</ObjectName>
+      <DownRoom>1</DownRoom>
+      <DownRoom>1</DownRoom>
+    </Item>
+    <!--  player  -->
+    <!--no need-->
+    <!--the position would be 125 145-->
+    <!-- player -->
+    <!--flame*2-->>
+    <Item>
+      <ObjectType>Item</ObjectType>
+      <ObjectName>boomerang</ObjectName>
+      <posX>40</posX>
+      <posY>52</posY>
+    </Item>
+    <Item>
+      <ObjectType>Item</ObjectType>
+      <ObjectName>bow</ObjectName>
+      <posX>50</posX>
+      <posY>50</posY>
+    </Item>
+    <Item>
+      <ObjectType>Item</ObjectType>
+      <ObjectName>candle</ObjectName>
+      <posX>60</posX>
+      <posY>50</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Flame</ObjectName>
+      <posX>31</posX>
+      <posY>40</posY>
+    </Item>
+    <Item>
+      <ObjectType>Enemy</ObjectType>
+      <ObjectName>Flame</ObjectName>
+      <posX>69</posX>
+      <posY>40</posY>
+    </Item>
+    <Item>
+      <ObjectType>NPC</ObjectType>
+      <ObjectName>Merchant</ObjectName>
+      <posX>48</posX>
+      <posY>38</posY>
+    </Item>
+
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Left</ObjectName>
+      <posX>13</posX>
+        <posY>46</posY>
+      </Item>
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Down</ObjectName>
+      <posX>47</posX>
+      <posY>82</posY>
+    </Item>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,105 @@
+<XnaContent>
+  <!-- contain all items, enemies, and npc at designed position-->
+  <Asset Type="MyDataTypes.LevelObjectData[]">
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>RoomNum</ObjectName>
+      <num>1</num>
+      <num>1</num>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Room</ObjectName>
+      <width>13</width>
+      <height>19</height>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Up</ObjectName>
+      <UpRoom>2</UpRoom>
+      <UpRoom>2</UpRoom>
+    </Item>
+    <Item>
+      <ObjectType>Room</ObjectType>
+      <ObjectName>Down</ObjectName>
+      <DownRoom>17</DownRoom>
+      <DownRoom>17</DownRoom>
+    </Item>
+    <!--  enemy  -->
+    
+    <!--  enemy  -->
+    <!--  item  -->
+
+    <!--
+  <Item>
+    <ObjectType>Item</ObjectType>
+    <ObjectName>Fairy</ObjectName>
+    <posX>57</posX>
+    <posY>63</posY>
+  </Item>
+  -->
+
+    <Item>
+      <ObjectType>Item</ObjectType>
+      <ObjectName>StaticBomb</ObjectName>
+      <posX>72</posX>
+      <posY>46</posY>
+    </Item>
+    <Item>
+      <ObjectType>Item</ObjectType>
+      <ObjectName>StaticBomb</ObjectName>
+      <posX>28</posX>
+      <posY>46</posY>
+    </Item>
+
+  
+
+    <Item>
+      <ObjectType>NPC</ObjectType>
+      <ObjectName>OldMan</ObjectName>
+      <posX>46</posX>
+      <posY>50</posY>
+    </Item>
+
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block1</ObjectName>
+      <posX>38</posX>
+      <posY>46</posY>
+    </Item>
+    <Item>
+      <ObjectType>Block</ObjectType>
+      <ObjectName>Block2</ObjectName>
+      <posX>57</posX>
+      <posY>46</posY>
+    </Item>
+    <!--  Block  -->
+    <!--  Door  -->
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Up</ObjectName>
+      <posX>47</posX>
+      <posY>19</posY>
+    </Item>
+    <Item>
+      <ObjectType>Door</ObjectType>
+      <ObjectName>Down</ObjectName>
+      <posX>47</posX>
+      <posY>82</posY>
+    </Item>
+    <!--  Door  -->
+
+    <!--  LockedDoor  -->
+    <Item>
+      <ObjectType>Item</ObjectType>
+      <ObjectName>Up</ObjectName>
+      <posX>44</posX>
+      <posY>8</posY>
+    </Item>
+  
+
+    <!--  LockedDoor  -->
+     
+    
+  </Asset>
+</XnaContent>

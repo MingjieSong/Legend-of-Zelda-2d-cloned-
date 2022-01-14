@@ -1,0 +1,10 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/bow.png","C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/bin/Windows/Content/bow.xnb","TextureProcessor","Texture2DContent",465,14245,0.6973156
+"C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/candle.png","C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/bin/Windows/Content/candle.xnb","TextureProcessor","Texture2DContent",514,15765,0.1909172
+"C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/characters.png","C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/bin/Windows/Content/characters.xnb","TextureProcessor","Texture2DContent",939,26293,0.0288904
+"C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/enemy.png","C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/bin/Windows/Content/enemy.xnb","TextureProcessor","Texture2DContent",6976,478913,0.0278922
+"C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/enemy2.png","C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/bin/Windows/Content/enemy2.xnb","TextureProcessor","Texture2DContent",10081,604893,0.030917
+"C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/item.png","C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/bin/Windows/Content/item.xnb","TextureProcessor","Texture2DContent",1923,202997,0.025932
+"C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/link.png","C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/bin/Windows/Content/link.xnb","TextureProcessor","Texture2DContent",6901,523669,0.0269276
+"C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/link--final.png","C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/bin/Windows/Content/link--final.xnb","TextureProcessor","Texture2DContent",30417,1077597,0.0428457
+"C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/woodenboomerang.png","C:/Users/zz/Desktop/3902/CSE-3902/Sprint2/Content/bin/Windows/Content/woodenboomerang.xnb","TextureProcessor","Texture2DContent",1211,10965,0.2047047
